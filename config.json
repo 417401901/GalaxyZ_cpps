@@ -1,0 +1,36 @@
+{
+  "AllFlightNum": 6,
+  "MyID": 0,
+  "AppID": 1083066,
+  "AppKey": "0eed56d6904db0a9f79b9c1418c93b42506a00af6b8490c176d1644cbe87bd5f",
+  "Device": "/dev/ttyS4",
+  "Address": "tcp://192.168.0.36:1883",
+  "Baudrate": 230400,
+  "PID": {
+    "X": {
+      "KP": 1.0,
+      "KI": 0.0,
+      "KD": 0.0,
+      "ILIMIT": 0.01,
+      "OUTLIMIT": 2.0
+    },
+    "Y": {
+      "KP": 1.0,
+      "KI": 0.0,
+      "KD": 0.0,
+      "ILIMIT": 0.01,
+      "OUTLIMIT": 2.0
+    },
+    "Z": {
+      "KP": 1.0,
+      "KI": 0.0,
+      "KD": 0.0,
+      "ILIMIT": 0.01,
+      "OUTLIMIT": 0.5
+    }
+  },
+  "MoveSet": {
+    "posThreshold": 0.1,
+    "timeThreshold": 200
+  }
+}
